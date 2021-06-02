@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+//import React, {useEffect, useState} from "react";
 import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
 import Home from "../views/Home";
 import Contact from "../views/Contact";
@@ -32,7 +32,7 @@ function Navbar() {
                         <ul className="navbar-nav">
                                 <>
                                     <li className="nav-item">
-                                        <Link to="/signup" className={`nav-link`}>
+                                        <Link to="/Signup" className={`nav-link`}>
                                             Inscription
                                         </Link>
                                     </li>
@@ -75,7 +75,7 @@ function Navbar() {
 
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route path="/signup" component={Signup} />
+                <Route path="/Signup" component={Signup} />
                 <Route path="/login" component={Login} />
                 <Route path="/profile" component={Profil} />
                 <Route path="/contact" component={Contact} />

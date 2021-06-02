@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+//import {Link} from "react-router-dom";
 
 function Home(){
     return (
@@ -175,7 +175,7 @@ function Home(){
                            
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
                                 <th scope="row" rowSpan="2" style={{backgroundColor: "gold", width:"8%",textAlign: "center"}}>12</th>
-                                <td style={{backgroundColor: "khaki"}} colSpan="6"><p>Etes vous client de la Banque Postale ?</p></td>
+                                <td style={{backgroundColor: "khaki"}} colSpan="6"><p>Connaissez-vous l'IFIAG ?</p></td>
                     
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
