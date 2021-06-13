@@ -1,14 +1,15 @@
 import React from 'react';
 //import {Link} from "react-router-dom";
+import { Styles } from '../components/Styles';
 
 function Home(){
     return (
-        <div className="container">
+        <Styles>
+            <div className="container">
             <div className="table-responsive">
                 <h2>Le questionnaire (1/2)</h2>
                     <br></br>
                 <div className="container d-flex">
-
                     <table className="table table-hover table-bordered align-middle ">
                                     <caption ><p style={{textAlign:"center"}}>Institut Français de l'Intelligence Artificielle et de la Génétique - IFIAG <br/>
                                     88, avenue des Ternes 75017 PARIS - Tél 01 41 34 38 25 - Site www.ifiag.org <br/>
@@ -194,6 +195,7 @@ function Home(){
             </div>
         </div>
 
+        </Styles>
     )
 }
 export default Home;
