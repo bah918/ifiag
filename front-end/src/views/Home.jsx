@@ -137,8 +137,8 @@ function Home(){
                       </thead>
                       <tbody>
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to right, #F1C40F 2%, #F7DC6F)", width:"8%",textAlign: "center"}}>9</th>
-                                <td style={{backgroundColor: "#F9E79F"}} colSpan="6">Parmi les éléments suivants, quel est celui qui vous paraît être aujourd'hui le principal frein à l'utilisation d'internet ?</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center"}}>9</th>
+                                <td style={{backgroundColor: "#A9CCE3"}} colSpan="6">Parmi les éléments suivants, quel est celui qui vous paraît être aujourd'hui le principal frein à l'utilisation d'internet ?</td>
     
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
@@ -152,8 +152,8 @@ function Home(){
 
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to right, #F1C40F 2%, #F7DC6F)", width:"8%",textAlign: "center"}}>10</th>
-                                <td style={{backgroundColor: "#F9E79F"}} colSpan="6">Aujourd'hui, lorsque vous devez accomplir vos démarches en ligne, êtes-vous plutôt :</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center"}}>10</th>
+                                <td style={{backgroundColor: "#A9CCE3"}} colSpan="6">Aujourd'hui, lorsque vous devez accomplir vos démarches en ligne, êtes-vous plutôt :</td>
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
                                 <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Très inquiet</p><br></br></td>
@@ -163,8 +163,8 @@ function Home(){
                                 <td colSpan="2"><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>ne sait pas</p><br></br></td>
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to right, #F1C40F 2%, #F7DC6F)", width:"8%",textAlign: "center"}}>11</th>
-                                <td style={{backgroundColor: "#F9E79F"}} colSpan="6">Aujourd'hui, lorsque vous devez accomplir vos démarches en ligne, êtes-vous plutôt:</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center"}}>11</th>
+                                <td style={{backgroundColor: "#A9CCE3"}} colSpan="6">Aujourd'hui, lorsque vous devez accomplir vos démarches en ligne, êtes-vous plutôt:</td>
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
                                 <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Vous ne vous sentez pas suffisamment à l'aise, en général, avec un ordinateur ou internet ?</p><br></br></td>
@@ -176,8 +176,8 @@ function Home(){
                             </tr> 
                            
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to right, #F1C40F 2%, #F7DC6F)", width:"8%",textAlign: "center"}}>12</th>
-                                <td style={{backgroundColor: "#F9E79F"}} colSpan="6">Connaissez-vous l'IFIAG ?</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center"}}>12</th>
+                                <td style={{backgroundColor: "#A9CCE3"}} colSpan="6">Connaissez-vous l'IFIAG ?</td>
                     
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
