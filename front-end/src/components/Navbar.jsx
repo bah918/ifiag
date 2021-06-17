@@ -10,7 +10,7 @@ function Navbar() {
     return (
         <BrowserRouter>
             <nav className="navbar sticky-top navbar-expand-lg navbar-white bg-white">
-                <div className="container-fluid">
+                <div  style={{backgroundImage: "linear-gradient(to bottom, #ffffff 2%, #D6EAF8)"}} className="container-fluid">
                     <Link to="/" className="navbar-brand">
                         <img style={{ width: "25%", marginRight: 623}}
                             src="./img/IFIAG - 5a - 30.10.2019 - LOGO.jpg"
@@ -32,12 +32,12 @@ function Navbar() {
                         <ul className="navbar-nav">
                                 <>
                                     <li className="nav-item">
-                                        <Link to="/Signup" className={`nav-link`}>
+                                        <Link to="/Signup" className={`nav-link`} style={{color:'#2E86C1', fontWeight: "bolder"}}>
                                             Inscription
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link to="/login" className={`nav-link`}>
+                                        <Link to="/login" className={`nav-link`}style={{color:'#2E86C1', fontWeight: "bolder"}}>
                                             Connection
                                         </Link>
                                     </li>
@@ -50,19 +50,20 @@ function Navbar() {
                                             onClick={() => {
                                                 return localStorage.removeItem("token");
                                             }}
-                                            className={`nav-link`}
-                                        >
+                                            className={`nav-link`} style={{color:'#2E86C1', fontWeight: "bolder"}} >
                                             Déconnexion
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link to="/profile" className={`nav-link`}>
+                                        <Link to="/profile" className={`nav-link`} 
+                                        style={{color:'#2E86C1', fontWeight: "bolder"}}>
                                             Profil
                                         </Link>
                                     </li>
                                     
                                     <li className="nav-item">
-                                        <Link to="/contact" className={`nav-link`}>
+                                        <Link to="/contact" className={`nav-link`}
+                                        style={{color:'#2E86C1', fontWeight: "bolder"}}>
                                             Contact
                                         </Link>
                                     </li>

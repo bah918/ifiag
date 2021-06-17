@@ -5,16 +5,17 @@ import { Styles } from '../components/Styles';
 function Home(){
     return (
         <Styles>
+            <div>
             <div className="container">
             <div className="table-responsive">
                 <h2>Le questionnaire (1/2)</h2>
                     <br></br>
                 <div className="container d-flex">
                     <table className="table table-hover table-bordered align-middle ">
-                                    <caption ><p style={{textAlign:"center"}}>Institut Français de l'Intelligence Artificielle et de la Génétique - IFIAG <br/>
+                                    <caption ><p style={{textAlign:"center", justifyContent: 'center', alignItems: 'center',}}>Institut Français de l'Intelligence Artificielle et de la Génétique - IFIAG <br/>
                                     88, avenue des Ternes 75017 PARIS - Tél 01 41 34 38 25 - Site www.ifiag.org <br/>
                                     SIREN 884 158 072 - RNA W751253501 - APE 8559B</p></caption>
-                        <thead style={{ ackgroundColor: "gold" }}>
+                        <thead style={{ backgroundColor: 'gold' }}>
                             {/*<tr style={{ textAlign:"Left", fontSize:"12px", fontWeight:"bolder" }}>
                                 <th scope="col">1</th>
                                 <th scope="col">je</th>
@@ -26,92 +27,92 @@ function Home(){
                         </thead>
                         <tbody>
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundColor: "#ddac6e", width:"8%",textAlign: "center"}}>1</th>
-                                <td style={{backgroundColor: "#00aae1"}} colSpan="6">Je suis</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center", color: 'black'}}>1</th>
+                                <td style={{backgroundColor: "#A9CCE3 "}} colSpan="6">Je suis</td>
     
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <td ><input type="checkbox"></input>un homme </td>
-                                <td colSpan="5"><input type="checkbox"></input>une femme</td>
+                                <td  style={{textAlign: "left"}}><input type="checkbox"></input> <p style={{marginTop : -20, marginLeft : 17}}>un homme</p></td>
+                                <td colSpan="5"><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>une femme</p></td>
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundColor: "#ddac6e", width:"8%",textAlign: "center"}}>2</th>
-                                <td style={{backgroundColor: "#00aae1"}} colSpan="6">J'ai</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center"}}>2</th>
+                                <td style={{backgroundColor: "#A9CCE3 "}} colSpan="6">J'ai</td>
                     
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <td><input type="checkbox"></input>moins de 18 ans</td>
-                                <td><input type="checkbox"></input>entre 18 et 35 ans</td>
-                                <td><input type="checkbox"></input>entre 35 et 50 ans</td>
-                                <td><input type="checkbox"></input>entre 50 et 65 ans</td>
-                                <td colSpan="2"><input type="checkbox"></input>plus de 65 ans</td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>moins de 18 ans</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>entre 18 et 35 ans</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>entre 35 et 50 ans</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>entre 50 et 65 ans</p></td>
+                                <td colSpan="2"><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>plus de 65 ans</p></td>
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundColor: "#ddac6e", width:"8%",textAlign: "center"}}>3</th>
-                                <td style={{backgroundColor: "#00aae1"}} colSpan="6">A domicile, je possède</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center"}}>3</th>
+                                <td style={{backgroundColor: "#A9CCE3 "}} colSpan="6">A domicile, je possède</td>
                            
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <td><input type="checkbox"></input> un smartphone</td>
-                                <td><input type="checkbox"></input> une tablette</td>
-                                <td><input type="checkbox"></input> un ordinateur</td>
-                                <td colSpan="3"><input type="checkbox"></input>je n'ai pas d'équipement*</td> 
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>un smartphone</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>une tablette</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>un ordinateur</p></td>
+                                <td colSpan="3"><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>je n'ai pas d'équipement</p></td> 
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundColor: "#ddac6e", width:"8%",textAlign: "center"}}>4</th>
-                                <td style={{backgroundColor: "#00aae1"}} colSpan="6">Connexion/a domicile</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center"}}>4</th>
+                                <td style={{backgroundColor: "#A9CCE3"}} colSpan="6">Connexion/à domicile</td>
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <td><input type="checkbox"></input><p>j'ai un accès  internet</p></td>
-                                <td><input type="checkbox"></input><p>je n'ai pas d'accès internet</p>car je n'ai pas souscrit d'offre*</td>
-                                <td colSpan="4"><input type="checkbox"></input><p>je n'ai pas d'accès internet</p>car mon domicile ne peut pas être relié au réseau</td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>j'ai un accès  internet</p> <br></br></td>
+                                <td><input style={{marginTop: 0}} type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>je n'ai pas d'accès internet car je n'ai pas souscrit d'offre</p></td>
+                                <td colSpan="4"><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>je n'ai pas d'accès internet car mon domicile ne peut pas être relié au réseau</p><br></br></td>
                                 
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundColor: "#ddac6e", width:"8%",textAlign: "center"}}>5</th>
-                                <td style={{backgroundColor: "#ddac6e"}} colSpan="6">Usages Equipement : je sais</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center"}}>5</th>
+                                <td style={{backgroundColor: "#A9CCE3"}} colSpan="6">Usages Equipement : je sais</td>
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <td><input type="checkbox"></input><p>allumer et éteindre</p><p>l'ordinateur/Smartphone/tablette</p></td>
-                                <td><input type="checkbox"></input><p>me servir d'un clavier et</p><p>d'une souris</p></td>
-                                <td><input type="checkbox"></input><p>faire une impression</p><p>scan</p></td>
-                                <td><input type="checkbox"></input><p>créer, enregistrer et</p><p>télécharger un document</p></td>
-                                <td><input type="checkbox"></input><p>utiliser une clef usb </p></td>
-                                <td><input type="checkbox"></input><p>Je ne sais pas faire les</p><p>actions ci-dessus*</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>allumer et éteindre l'ordinateur/Smartphone/tablette</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>me servir d'un clavier et d'une souris</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>faire une impression scan</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>créer, enregistrer et télécharger un document</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>utiliser une clef usb </p><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Je ne sais pas faire les actions ci-dessus*</p></td>
 
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundColor: "#ddac6e", width:"8%",textAlign: "center"}}>6</th>
-                                <td style={{backgroundColor: "#ddac6e"}} colSpan="6">Usages internet-Je sais</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center"}}>6</th>
+                                <td style={{backgroundColor: "#A9CCE3"}} colSpan="6">Usages internet-Je sais</td>
                                
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <td><input type="checkbox"></input><p>Faire des recherches sur</p><p>internet</p></td>
-                                <td><input type="checkbox"></input><p>Utiliser les services publics</p><p>en ligne (CPAM, pole</p><p>Emploi...)</p></td>
-                                <td><input type="checkbox"></input><p>Envoyer un email</p></td>
-                                <td><input type="checkbox"></input><p>Faire un achat en ligne</p></td>
-                                <td><input type="checkbox"></input><p>Suivre mes comptes</p><p>bancaires en ligne</p></td>
-                                <td><input type="checkbox"></input><p>Je ne sais pas faire les </p><p>actions ci-dessus*</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Faire des recherches sur internet</p><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Utiliser les services publics en ligne (CPAM, pole Emploi...)</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Envoyer un email</p><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Faire un achat en ligne</p><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Suivre mes comptes bancaires en ligne</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Je ne sais pas faire les actions ci-dessus</p></td>
 
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundColor: "#ddac6e", width:"8%",textAlign: "center"}}>7</th>
-                                <td style={{backgroundColor: "#ddac6e"}} colSpan="6">Quand vous utiliser un outil numerique, le faites vous</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center"}}>7</th>
+                                <td style={{backgroundColor: "#A9CCE3"}} colSpan="6">Quand vous utilisez un outil numerique, le faites vous</td>
                            
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
                                 
-                                <td><input type="checkbox"></input><p>Seul, de façon autonome</p></td>
-                                <td colSpan="5"><input type="checkbox"></input> <p>accompagné (enfants,</p><p>conjoints, amis,</p><p>associations, aidants ...)*</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Seul, de façon autonome</p></td>
+                                <td colSpan="5"><input type="checkbox"></input> <p style={{marginTop : -20, marginLeft : 17}}>accompagné (enfants, conjoints, amis, associations, aidants ...)</p></td>
                                 
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundColor: "#ddac6e", width:"8%",textAlign: "center"}}>8</th>
-                                <td style={{backgroundColor: "khaki"}} colSpan="6">Usages-Qu'aimeriez-vous faire sur internet et que vous ne savez pas faire aujourd'hui ?</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center"}}>8</th>
+                                <td style={{backgroundColor: "#A9CCE3"}} colSpan="6">Usages-Qu'aimeriez-vous faire sur internet et que vous ne savez pas faire aujourd'hui ?</td>
     
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <td colSpan="6"><input type="checkbox"></input><p>(champs libre)</p></td>
+                                <td colSpan="6"><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>(champs libre)</p></td>
                                 
                             </tr> 
                         </tbody>
@@ -136,52 +137,52 @@ function Home(){
                       </thead>
                       <tbody>
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundColor: "gold", width:"8%",textAlign: "center"}}>9</th>
-                                <td style={{backgroundColor: "khaki"}} colSpan="6">Parmi les éléments suivants, quel est celui qui vous paraît être aujourd'hui le principal frein à l'utilisation d'internet ?</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to right, #F1C40F 2%, #F7DC6F)", width:"8%",textAlign: "center"}}>9</th>
+                                <td style={{backgroundColor: "#F9E79F"}} colSpan="6">Parmi les éléments suivants, quel est celui qui vous paraît être aujourd'hui le principal frein à l'utilisation d'internet ?</td>
     
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <td ><input type="checkbox"></input><p>Trop compliqué à</p><p>utiliser</p></td>
-                                <td><input type="checkbox"></input><p>La qualité de</p><p>service-le temps</p><p>de reponse, les</p><p>interruptions-n'est pas satisfaisante</p></td>
-                                <td><input type="checkbox"></input><p>les données personnelles</p><p>ne sont pas suffisamment</p><p>protégées sur internet</p></td>
-                                <td><input type="checkbox"></input><p>cela revient trop</p><p>cher</p></td>
-                                <td><input type="checkbox"></input><p>Internet n'est pas utile pour</p><p>la vie quotidienne</p></td>
-                                <td><input type="checkbox"></input><p>Le service après vente et l'assistance ne sont pas</p><p>satisfaisants</p></td>
+                                <td ><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Trop compliqué à utiliser</p><br></br><br></br><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>La qualité de service-le temps de reponse, les interruptions-n'est pas satisfaisante</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>les données personnelles ne sont pas suffisamment protégées sur internet</p><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>cela revient trop cher</p><br></br><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Internet n'est pas utile pour la vie quotidienne</p><br></br><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Le service après vente et l'assistance ne sont pas satisfaisants</p><br></br></td>
 
 
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundColor: "gold", width:"8%",textAlign: "center"}}>10</th>
-                                <td style={{backgroundColor: "khaki"}} colSpan="6">Aujourd'hui, lorsque vous devez accomplir vos démarches en ligne, êtes-vous plutôt :</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to right, #F1C40F 2%, #F7DC6F)", width:"8%",textAlign: "center"}}>10</th>
+                                <td style={{backgroundColor: "#F9E79F"}} colSpan="6">Aujourd'hui, lorsque vous devez accomplir vos démarches en ligne, êtes-vous plutôt :</td>
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <td><input type="checkbox"></input><p>Très inquiet</p></td>
-                                <td><input type="checkbox"></input><p>assez inquiet</p></td>
-                                <td><input type="checkbox"></input><p>peu inquiet</p></td>
-                                <td><input type="checkbox"></input><p>pas du tout inquiet</p></td>
-                                <td colSpan="2"><input type="checkbox"></input><p>ne sait pas</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Très inquiet</p><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>assez inquiet</p><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>peu inquiet</p><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>pas du tout inquiet</p></td>
+                                <td colSpan="2"><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>ne sait pas</p><br></br></td>
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundColor: "gold", width:"8%",textAlign: "center"}}>11</th>
-                                <td style={{backgroundColor: "khaki"}} colSpan="6">Aujourd'hui, lorsque vous devez accomplir vos démarches en ligne, êtes-vous plutôt:</td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to right, #F1C40F 2%, #F7DC6F)", width:"8%",textAlign: "center"}}>11</th>
+                                <td style={{backgroundColor: "#F9E79F"}} colSpan="6">Aujourd'hui, lorsque vous devez accomplir vos démarches en ligne, êtes-vous plutôt:</td>
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <td><input type="checkbox"></input><p>Vous ne vous sentez pas</p><p>suffisamment à l'aise, en</p><p>général, avec un ordinateur</p><p>ou internet ?</p></td>
-                                <td><input type="checkbox"></input><p>Vous ne vous sentez pas</p><p>suffisamment à l'aise avec les</p><p>sites administratifs en </p><p>particulier</p></td>
-                                <td><input type="checkbox"></input><p>Vous n'avez pas suffisamment</p><p>confiance dans la sécurité des</p><p>données sur internet</p></td>
-                                <td><input type="checkbox"></input><p>Vous n'avez pas facilement</p><p>accès à internet</p></td>
-                                <td><input type="checkbox"></input><p>Vous ne savez pas vraiment</p><p>comment archiver et archiver et</p><p>conserver des informatons</p><p>dans le temps avec les</p><p>les démarches en ligne</p></td>
-                                <td><input type="checkbox"></input><p>Toutes les démarches administratives</p><p>vous inquiètent,</p><p>quelle que soit la</p><p>façon dont vous le faîtes</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Vous ne vous sentez pas suffisamment à l'aise, en général, avec un ordinateur ou internet ?</p><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Vous ne vous sentez pas suffisamment à l'aise avec les sites administratifs en particulier</p><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Vous n'avez pas suffisamment confiance dans la sécurité des données sur internet</p><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Vous n'avez pas facilement accès à internet</p><br></br><br></br></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Vous ne savez pas vraiment comment archiver et archiver et conserver des informatons dans le temps avec les les démarches en ligne</p></td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>Toutes les démarches administratives vous inquiètent, quelle que soit la façon dont vous le faîtes</p><br></br></td>
                             </tr> 
                            
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <th scope="row" rowSpan="2" style={{backgroundColor: "gold", width:"8%",textAlign: "center"}}>12</th>
-                                <td style={{backgroundColor: "khaki"}} colSpan="6"><p>Connaissez-vous l'IFIAG ?</p></td>
+                                <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to right, #F1C40F 2%, #F7DC6F)", width:"8%",textAlign: "center"}}>12</th>
+                                <td style={{backgroundColor: "#F9E79F"}} colSpan="6">Connaissez-vous l'IFIAG ?</td>
                     
                             </tr> 
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
-                                <td><input type="checkbox"></input>OUI</td>
-                                <td colSpan="5"><input type="checkbox"></input>NON</td>
+                                <td><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>OUI</p></td>
+                                <td colSpan="5"><input type="checkbox"></input><p style={{marginTop : -20, marginLeft : 17}}>NON</p></td>
                             </tr> 
                       </tbody>
 
@@ -194,7 +195,7 @@ function Home(){
 
             </div>
         </div>
-
+        </div>
         </Styles>
     )
 }
