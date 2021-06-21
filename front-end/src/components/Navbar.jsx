@@ -13,7 +13,7 @@ function Navbar() {
                 <div  style={{backgroundImage: "linear-gradient(to bottom, #ffffff 2%, #D6EAF8)"}} className="container-fluid">
                     <Link to="/" className="navbar-brand">
                         <img style={{ width: "25%", marginRight: 623}}
-                            src="./img/IFIAG - 5a - 30.10.2019 - LOGO.jpg"
+                            src="./img/IFIAG - 5a - 30.10.2019 - LOGO.PNG"
                             alt="ifiag"
                         />
                     </Link>

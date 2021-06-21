@@ -44,33 +44,53 @@ export default function Login() {
         {...layout}
         name="basic"
         onFinish={onFinish}
+        style={{backgroundImage: "linear-gradient(to bottom, #ffffff 2%, #D6EAF8)"}}
       >
         <h2>Connection</h2>
-        <Form.Item
-          label="Email"
-          name="email"
-          rules={[
-            {
-              required: true,
-              message: 'Entrez votre email!',
-            },
-          ]}
-        >
-          <Input />
-        </Form.Item>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2"></th>
+            </tr>
+          </thead>
+          <tbody style={{textAlign : "right",}}>
+            <tr>
+              <td style={{width:"30%"}} > <span style={{color:"red"}}>*</span> Email :</td>
+              <td>
+                <Form.Item
+                  label=""
+                  name="email"
+                  rules={[
+                    {
+                      required: true,
+                      message: "Entrez votre email !",
+                    },
+                  ]}
+                >
+                  <Input style={{ width:"70%", marginRight:"28%"}}/>
+                </Form.Item>
+              </td>
+            </tr>
+            <tr>
+              <td style={{width:"30%"}} > <span style={{color:"red"}}>*</span> Mot de passe :</td>
+              <td>
+                <Form.Item
+                  label=""
+                  name="motDePasse"
+                  rules={[
+                    {
+                      required: true,
+                      message: "Entrez votre mot de passe !",
+                    },
+                  ]}
+                >
+                  <Input.Password style={{ display: "inline", width: "70%", marginRight: "68.5%" }}/>
+                </Form.Item>
+              </td>
+            </tr>
 
-        <Form.Item
-          label="Mot de Passer"
-          name="motDePasse"
-          rules={[
-            {
-              required: true,
-              message: 'Entrez votre mot de passe!',
-            },
-          ]}
-        >
-          <Input.Password />
-        </Form.Item>
+          </tbody>
+        </table>
 
         <Form.Item
           wrapperCol={{
@@ -78,12 +98,15 @@ export default function Login() {
             span: 16,
           }}
         >
-          <Button type="primary" htmlType="submit">
+          <Button style={{ marginRight:"17%", marginBottom:"2%"}} type="primary" htmlType="submit">
             Connection
           </Button>
         </Form.Item>
       </Form>
-          
+        
+
+
+
     </Styles>
 
   )
