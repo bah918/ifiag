@@ -7,8 +7,8 @@ function Home(){
         <Styles>
             <div>
             <div className="container">
-            <div className="table-responsive">
-                <h2>Le questionnaire (1/2)</h2>
+            <div id="part1" className="table-responsive">
+                <h2 >Le questionnaire (1/2)</h2>
                     <br></br>
                 <div className="container d-flex">
                     <table className="table table-hover table-bordered align-middle ">
@@ -121,9 +121,13 @@ function Home(){
                         </tfoot>
                     </table>
                     {/* deuxieme page */}
+
+                    
                     
                 </div>
-                <h3>Le questionnaire (2/2)</h3>
+                <a href="#part2" style={{display:"block", color:"#2E86C1", marginBottom :"3%", marginTop:"-2%", marginRight:"5%" ,textDecoration:"none", textAlign:"right"}}>Suivant</a>
+
+                <h3 id="part2">Le questionnaire (2/2)</h3>
                        <br></br>
                        
                 <div className="container d-flex">
@@ -132,7 +136,7 @@ function Home(){
                                     88, avenue des Ternes 75017 PARIS - Tél 01 41 34 38 25 - Site www.ifiag.org <br/>
                                     SIREN 884 158 072 - RNA W751253501 - APE 8559B</p>
                        </caption>   
-                      <thead style={{ ackgroundColor: "#ddac6e" }}>
+                      <thead>
 
                       </thead>
                       <tbody>
@@ -191,7 +195,7 @@ function Home(){
                     
                 </div>
 
-
+                <a href="#part1" style={{display:"block", color:"#2E86C1", marginBottom :"3%", marginTop:"-2%", marginRight:"5%" ,textDecoration:"none", textAlign:"right"}}>Avant</a>
 
             </div>
         </div>
