@@ -9,7 +9,14 @@ function Home(){
             <div className="container">
             <div id="part1" className="table-responsive">
                 <h2 >Le questionnaire</h2>
-                    <br></br>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td  style={{ display: "block", marginLeft:"50px",marginRight: "1100px", marginBottom:"10px" }}><a href="#part1" style={{ display: "block", color: "#2E86C1", marginBottom: "3%", marginTop: "-2%", marginRight: "5%", textDecoration: "none", textAlign: "right" }}>Avant</a></td>
+                                    <td><a href="#part2" style={{ display: "block", color: "#2E86C1", marginBottom: "3%", marginTop: "-2%", marginRight: "5%", textDecoration: "none", textAlign: "right" }}>Suivant</a>    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                 <div className="container d-flex">
                     <table className="table table-hover table-bordered align-middle ">
                                     <caption ><p style={{textAlign:"center", justifyContent: 'center', alignItems: 'center',}}>Institut Français de l'Intelligence Artificielle et de la Génétique - IFIAG <br/>
@@ -25,6 +32,9 @@ function Home(){
                                 <th scope="col">je</th>
                             </tr> */}
                         </thead>
+
+                        
+
                         <tbody>
                             <tr style={{ textAlign: "Left", fontSize: "12px", fontWeight: "bolder" }}>
                                 <th scope="row" rowSpan="2" style={{backgroundImage: "linear-gradient(to left, #5499C7 2%, #21618C)", width:"8%",textAlign: "center", color: 'black'}}>1</th>
@@ -125,10 +135,17 @@ function Home(){
                     
                     
                 </div>
-                <a href="#part2" style={{display:"block", color:"#2E86C1", marginBottom :"3%", marginTop:"-2%", marginRight:"5%" ,textDecoration:"none", textAlign:"right"}}>Suivant</a>
 
                 <h3 id="part2"></h3>
-                       <br></br>
+                
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td style={{ display: "block", marginLeft: "50px", marginRight: "1100px", marginBottom: "10px" }}><a href="#part1" style={{ display: "block", color: "#2E86C1", marginBottom: "3%", marginTop: "-2%", marginRight: "5%", textDecoration: "none", textAlign: "right" }}>Avant</a></td>
+                                    <td><a href="#part2" style={{ display: "block", color: "#2E86C1", marginBottom: "3%", marginTop: "-2%", marginRight: "5%", textDecoration: "none", textAlign: "right" }}>Suivant</a>    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                        
                 <div className="container d-flex">
                     <table className="table table-hover table-bordered align-middle ">
@@ -195,7 +212,6 @@ function Home(){
                     
                 </div>
 
-                <a href="#part1" style={{display:"block", color:"#2E86C1", marginBottom :"3%", marginTop:"-2%", marginRight:"5%" ,textDecoration:"none", textAlign:"right"}}>Avant</a>
 
             </div>
         </div>
