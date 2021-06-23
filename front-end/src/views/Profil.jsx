@@ -57,7 +57,7 @@ export default function Profil() {
           <p>A très bientôt!</p>
         </div>
       ),
-      onOk() { },
+      onOk() {},
     });
   }
 
@@ -76,10 +76,11 @@ export default function Profil() {
                           ? User.image
                           : "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
                       } alt="Admin" className="rounded-circle" width="150"></img>
-                      <div className="mt-3">
+                      <div style={{display:"inline",height:"100px", width:"800px"}} className="mt-3">
                         <h4>{User.nom} {User.prénom}</h4>
-                        <input id="inputimage" type="file" onChange={addProfilimage} />
-                        <button className="btn btn-danger mx-auto"
+                        <input style={{marginLeft:"2%"}} id="inputimage" type="file" onChange={addProfilimage} />
+                        <br></br>
+                        <button style={{marginLeft:"-22%", marginTop:"3%"}} className="btn btn-danger mx-auto"
                           onClick={() => {
                             addImage();
                             refreshProfilPage();
@@ -95,13 +96,14 @@ export default function Profil() {
 
               <div className="col-md-8 d-flex justify-content-center align-items-center">
                 <div className="card mb-3">
-                  <div className="card-body" style={{ marginTop: "30%" }}>
+                  <div className="card-body" style={{ width:"500px", height:"300px", marginTop: "30%" }}>
                     <div className="row">
                       <div className="col-sm-3">
                         <h6 className="mb-0">Nom</h6>
                       </div>
                       <div className="col-sm-9 text-secondary">
                         {`${User.nom}  ${User.prénom}`}
+                        
                       </div>
                     </div>
                     <hr></hr>
@@ -125,7 +127,7 @@ export default function Profil() {
                     <div className="row">
                       <div className="col-sm-3 col-lg mx-auto" style={{ textAlign: "center", margin: '21%' }}>
                         {/* <button onClick={logout} class="btn btn-danger mx-auto">Se déconnecter</button> */}
-                        <button className="btn btn-danger mx-auto"
+                        <button style={{marginTop:"-15%"}} className="btn btn-danger mx-auto"
                           onClick={() => {
                             info();
                             logout();

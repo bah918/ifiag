@@ -2,7 +2,7 @@ import React from "react";
 import '../App.css';
 import { Styles } from '../components/Styles';
 import { useHistory } from "react-router-dom";
-import { Form, Input, Button, Space} from "antd";
+import { Form, Input, Button} from "antd";
 
 
 const layout = {
