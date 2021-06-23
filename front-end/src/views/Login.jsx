@@ -84,7 +84,7 @@ export default function Login() {
                     },
                   ]}
                 >
-                  <Input.Password style={{ display: "inline", width: "70%", marginRight: "68.5%" }}/>
+                  <Input.Password style={{ display: "inline", width: "70%", marginRight: "73.2%" }}/>
                 </Form.Item>
               </td>
             </tr>

@@ -140,7 +140,7 @@ export default function Signup() {
 
 
                     <Input.Password 
-                      style={{ display: "inline", width: "70%", marginRight: "68.5%" }}
+                      style={{ display: "inline", width: "70%", marginRight: "73.2%" }}
                       
                     />
 
@@ -172,7 +172,7 @@ export default function Signup() {
                   ]}
                 >
                   <Input.Password
-                    style={{ display: "inline", width: "70%", marginRight: "68.5%" }}
+                    style={{ display: "inline", width: "70%", marginRight: "73.2%" }}
 
                   />
 
