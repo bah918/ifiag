@@ -12,8 +12,8 @@ function Home(){
                         <table>
                             <tbody>
                                 <tr>
-                                    <td  style={{ display: "block", marginLeft:"50px",marginRight: "1100px", marginBottom:"10px" }}><a href="#part1" style={{ display: "block", color: "#2E86C1", marginBottom: "3%", marginTop: "-2%", marginRight: "5%", textDecoration: "none", textAlign: "right" }}>Avant</a></td>
-                                    <td><a href="#part2" style={{ display: "block", color: "#2E86C1", marginBottom: "3%", marginTop: "-2%", marginRight: "5%", textDecoration: "none", textAlign: "right" }}>Suivant</a>    </td>
+                                    <td><a href="#part1" style={{ display: "inline-block", frontSize:"20px", color: "#2E86C1", marginBottom: "3%", marginTop: "-2%", marginRight: "1100px", marginLeft:"50px",textDecoration: "none" }}>Avant</a></td>
+                                    <td style={{display: "inline-block",marginBottom:"2px"}}><a href="#part2" style={{display: "inline-block",color: "#2E86C1", textDecoration: "none", frontSize :"20px" }}>Suivant</a>    </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -141,8 +141,8 @@ function Home(){
                         <table>
                             <tbody>
                                 <tr>
-                                    <td style={{ display: "block", marginLeft: "50px", marginRight: "1100px", marginBottom: "10px" }}><a href="#part1" style={{ display: "block", color: "#2E86C1", marginBottom: "3%", marginTop: "-2%", marginRight: "5%", textDecoration: "none", textAlign: "right" }}>Avant</a></td>
-                                    <td><a href="#part2" style={{ display: "block", color: "#2E86C1", marginBottom: "3%", marginTop: "-2%", marginRight: "5%", textDecoration: "none", textAlign: "right" }}>Suivant</a>    </td>
+                                <td><a href="#part1" style={{ display: "inline-block", frontSize:"20px", color: "#2E86C1", marginBottom: "3%", marginTop: "-2%", marginRight: "1100px", marginLeft:"50px",textDecoration: "none" }}>Avant</a></td>
+                                <td style={{display: "inline-block",marginBottom:"2px"}}><a href="#part2" style={{display: "inline-block",color: "#2E86C1", textDecoration: "none", frontSize :"20px" }}>Suivant</a>    </td>
                                 </tr>
                             </tbody>
                         </table>
