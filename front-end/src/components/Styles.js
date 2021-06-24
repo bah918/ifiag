@@ -34,4 +34,11 @@ button{
     border-radius : 4px;
     transition : .3s;
     background-color : #37628d;
+
+well:{
+        boxShadow: "1px 3px 1px #9E9E9E"
+      }
 }`;
+
+
+//backgroundImage: "linear-gradient(to bottom, #ffffff 2%, #D6EAF8)", borderRadius : "5px", boxShadow : 0 8 16 rgba(0,0,0,.3), width:"500px", height:"300px", marginTop: "30%"
