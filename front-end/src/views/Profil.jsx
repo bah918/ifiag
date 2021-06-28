@@ -5,6 +5,22 @@ import { Styles } from "../components/Styles";
 // import Liste from "./Liste";
 import { Modal } from 'antd';
 
+const styles = {
+
+  well: {
+
+    width:"500px", 
+    height:"300px", 
+    marginTop: "30%",
+  },
+
+  well1: {
+    backgroundImage: "linear-gradient(to bottom, #ffffff 20%, #D6EAF8)", 
+    borderRadius : "5px", 
+    boxShadow : "0px 8px 16px rgba(0,0,0,.3)", 
+
+  },
+};
 
 export default function Profil() {
   const [User, setUser] = useState([]);
@@ -69,7 +85,7 @@ export default function Profil() {
             <div className="row gutters-sm">
               <div className="col-md-4 mb-3">
                 <div className="card">
-                  <div className="card-body">
+                  <div style={{backgroundImage: "linear-gradient(to bottom, #ffffff 2%, #D6EAF8)"}} className="card-body">
                     <div className="d-flex flex-column align-items-center text-center">
                       <img src={
                         User.image
@@ -95,9 +111,9 @@ export default function Profil() {
               </div>
 
               <div className="col-md-8 d-flex justify-content-center align-items-center">
-                <div className="card mb-3">
-                  <div className="card-body" style={{ width:"500px", height:"300px", marginTop: "30%" }}>
-                    <div className="row">
+                <div className="card mb-3" style={ styles.well1 }>
+                  <div className="card-body" style={ styles.well }>
+                    <div className="row" >
                       <div className="col-sm-3">
                         <h6 className="mb-0">Nom</h6>
                       </div>
