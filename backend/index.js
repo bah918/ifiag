@@ -13,8 +13,8 @@ app.listen(port, ()=>{
     console.log('Serveur lancé')
 })
 
-app.get("/bonjour/:lang", (req, res)=>{
-  req 
+// app.get("/bonjour/:lang", (req, res)=>{
+//   req 
  
-})
+// })
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 import "../App.css";
-import { Styles } from "../components/Styles";
+import { Styles } from "../components/styles";
 // import Liste from "./Liste";
 import { Modal } from 'antd';
 

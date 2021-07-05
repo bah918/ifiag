@@ -16,6 +16,17 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:true
     },
+    motDePasse:{
+        type: String,
+        required: true
+    },
+    role:{
+        type: String,
+        default: 'B'
+    },
+    // image:{
+    //     type: String,
+    // },
     numero:{
         type:String,
         required:true

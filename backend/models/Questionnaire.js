@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 
 const questionnaireSchema = new mongoose.Schema({
+    question : String,
+    colonne : String,
     utilisateurs:{
         type:mongoose.Types.ObjectId,
         ref:'Users'

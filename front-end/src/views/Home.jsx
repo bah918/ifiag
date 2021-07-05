@@ -1,6 +1,6 @@
 import React from 'react';
 //import {Link} from "react-router-dom";
-import { Styles } from '../components/Styles';
+import { Styles } from '../components/styles';
 
 function Home(){
     return (
@@ -131,12 +131,10 @@ function Home(){
                         </tfoot>
                     </table>
                     {/* deuxieme page */}
-
-                    
-                    
+   
                 </div>
 
-                <h3 id="part2"></h3>
+                <h3 id="part2">kolo</h3>
                 
                         <table>
                             <tbody>
