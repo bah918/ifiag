@@ -36,7 +36,7 @@ export default function Signup() {
         
       }
     } catch (err) {
-      console.log(err, 'marche po');
+      console.log(err, 'marche pas');
     }
   };
 

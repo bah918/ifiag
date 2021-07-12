@@ -3,6 +3,7 @@ import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
 import Home from "../views/Home";
 import Contact from "../views/Contact";
 import Login from "../views/Login";
+import Formations from "../views/Formations";
 import Signup from "../views/Signup";
 import Profil from "../views/Profil";
 
@@ -41,6 +42,11 @@ function Navbar() {
                                             Connection
                                         </Link>
                                     </li>
+                                    <li className="nav-item">
+                                        <Link to="/formations" className={`nav-link`} style={{color:'#2E86C1', fontWeight: "bolder"}}>
+                                            Formations
+                                        </Link>
+                                    </li>
                                 </>
                             
                                 <>
@@ -54,6 +60,7 @@ function Navbar() {
                                             Déconnexion
                                         </Link>
                                     </li>
+                            
                                     <li className="nav-item">
                                         <Link to="/profile" className={`nav-link`} 
                                         style={{color:'#2E86C1', fontWeight: "bolder"}}>
@@ -78,6 +85,7 @@ function Navbar() {
                 <Route exact path="/" component={Home} />
                 <Route path="/Signup" component={Signup} />
                 <Route path="/login" component={Login} />
+                <Route path="/formations" component={Formations} />
                 <Route path="/profile" component={Profil} />
                 <Route path="/contact" component={Contact} />
             </Switch>
