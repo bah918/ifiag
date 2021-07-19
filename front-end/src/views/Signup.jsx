@@ -59,7 +59,7 @@ export default function Signup() {
         </Form.Item>
 
         <Form.Item
-          label="Mot de passe"
+          label="Mot de Passe"
           name="motDePasse"
           rules={[
             {
@@ -72,13 +72,13 @@ export default function Signup() {
         </Form.Item>
 
         <Form.Item
-          label="Confirmation du MDP"
+          label="Confirmer MDP"
           name="confirm_password"
           dependencies={["motDePasse"]}
           rules={[
             {
               required: true,
-              message: "Confirmez votre mot de passe !",
+              message: "Confirmez mot de Passe !",
             },
             ({ getFieldValue }) => ({
               validator(_, value) {
@@ -96,7 +96,7 @@ export default function Signup() {
         </Form.Item>
 
         <Form.Item
-          label="Prenom"
+          label="Prénom"
           name="prénom"
           rules={[
             {
@@ -123,7 +123,7 @@ export default function Signup() {
 
         <Form.Item
           name="numero"
-          label="Numéro"
+          label="Numéro de Tél"
           rules={[
             {
               required: true,
