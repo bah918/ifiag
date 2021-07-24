@@ -9,8 +9,11 @@ function Formations() {
       <div className="container">
         
           <h2>Inscription aux différentes formations</h2>
-          <a href="https://www.ifiag.org/formations-dates/" target="_blank" style={{button:"center"}}><button>Choisissez votre formation</button></a>
+          <h4>
+              Choisissez votre Formation en cliquant 
+             <a href="https://www.ifiag.org/formations-dates/" target="_blank" style={{button:"center"}}> ici</a>
 
+          </h4>
       </div>
 
     </Styles>
