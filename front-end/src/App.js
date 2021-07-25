@@ -5,7 +5,6 @@ import Navbar from './components/Navbar'
 import 'antd/dist/antd.css'
 
 
-
 function App() {
   
   return (
