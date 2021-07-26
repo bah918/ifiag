@@ -45,7 +45,7 @@ export default function Login() {
         name="basic"
         onFinish={onFinish}
       >
-        <h2>Connection</h2>
+        
         <Form.Item
           label="Email"
           name="email"
@@ -79,7 +79,7 @@ export default function Login() {
           }}
         >
           <Button type="primary" htmlType="submit">
-            <a href="http://localhost:3000/formations" target="_blank">Connection</a>
+            <a href="http://localhost:3000/formations">Connection</a>
           </Button>
         </Form.Item>
       </Form>

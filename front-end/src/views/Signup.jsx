@@ -44,7 +44,7 @@ export default function Signup() {
 
     <Styles>
       <Form {...layout} name="basic" onFinish={onFinish} className="formInscrition">
-        <h2>Inscription</h2>
+        
         <Form.Item
           label="Email"
           name="email"
@@ -141,7 +141,7 @@ export default function Signup() {
           }}
         >
           <Button type="primary" htmlType="submit">
-            <a href="http://localhost:3000/login" target="_blank">S'inscrire</a>
+            <a href="http://localhost:3000/login">S'inscrire</a>
         </Button>
         </Form.Item>
       </Form>

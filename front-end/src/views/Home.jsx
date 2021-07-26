@@ -49,7 +49,7 @@ function Home() {
 
                     <li class="page-item">
                         <a class="page-link" href="#">
-                            <h2 >Le questionnaire</h2>
+                            <h2 >Le questionnaire 1/2</h2>
                             {/* debut */}
 
                             <div className="container d-flex">

@@ -37,7 +37,24 @@ app.listen(port, ()=>{
 // })
 
 app.get('/Questionnaire', async (req, res) => {
-
+    let limit = 7;
+    let page = 0;
+    if (req.query.limit) {
+        if (!parseInt(req.query.limit) || parseInt(req.query.limit) < 1) {
+            res.status(400).json({ message: "Limit must be a positive number" });
+        }
+        limit = req.query.limit;
+    }
+    if (req.query.page) {
+        page = req.query.page
+    }
+    try {
+        const planning = await PlanningModel.find({}).populate('utilisateurs').skip(parseInt(page * limit)).limit(parseInt(limit)).lean().exec()
+        res.json(planning)
+    } catch (error) {
+        console.log(error)
+        res.status(403).send('questionnaire introuvable')
+    }
 });
 
 

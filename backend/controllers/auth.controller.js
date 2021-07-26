@@ -1,5 +1,5 @@
-const {generateToken} = require('../utils/auth.utils')
-const UserModel = require('../models/User')
+const {generateToken} = require('../utils/auth.utils');
+const UserModel = require('../models/User');
 
 module.exports.signup = async (req, res, next) => {
     try{

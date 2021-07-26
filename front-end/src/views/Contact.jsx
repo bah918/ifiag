@@ -40,12 +40,12 @@ export default function Contact() {
 
   return (
     <Styles>
-      <h2 >Contact</h2>
-      <h4>
-        Allez à la page contact de L'IFIAG en cliquant 
+      <h4>Vous avez une question veuillez completer le formulaire ci-dessous</h4>
+      <h5>
+        ou allez à la page contact de L'IFIAG en cliquant 
         <a href="https://www.ifiag.org/contact/" target="_blank"> ici </a>
-      </h4>
-      <h5>Vous avez une question veuillez completer ce formulaire ci-dessous:</h5>
+      </h5>
+      
       <Form {...layout} name="nest-messages" 
                         onFinish={sendEmail} validateMessages={validateMessages} >
         <div className="container" style={{ marginTop: "5%" }}>
