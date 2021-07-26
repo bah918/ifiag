@@ -136,7 +136,7 @@ export default function Signup() {
 
         <Form.Item
           wrapperCol={{
-            offset: 8,
+            offset: 3,
             span: 16,
           }}
         >
