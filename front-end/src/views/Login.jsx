@@ -79,7 +79,7 @@ export default function Login() {
           }}
         >
           <Button type="primary" htmlType="submit">
-            Connection
+            <a href="http://localhost:3000/formations" target="_blank">Connection</a>
           </Button>
         </Form.Item>
       </Form>

@@ -141,7 +141,7 @@ export default function Signup() {
           }}
         >
           <Button type="primary" htmlType="submit">
-            S'inscrire
+            <a href="http://localhost:3000/login" target="_blank">S'inscrire</a>
         </Button>
         </Form.Item>
       </Form>
